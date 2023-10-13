@@ -1,0 +1,35 @@
+/*
+#cv-form{
+     display:none; 
+}
+*/
+#cv-template{
+    display:none;
+}
+.myimg{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 200px;   
+}
+.background{
+    background-color:rgb(255, 181, 152)
+}   
+body{
+    background-color:lightblue;
+}
+.ab{
+    background-color: lightsalmon;
+}
+.form-control{
+    display: block;
+    width: 100%; /* THIS */
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555; /* THIS */
+    background-color:#ffe1f6;
+    background-image: none;
+    border: 1px solid #ccc; /* THIS */
+    border-radius: 4px; /* THIS */
+  }

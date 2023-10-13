@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="menus">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4  class="active"><span></span><i class="bi bi-music-note-beamed"></i> Your Library</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Recommended Songs</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Recent Played</h4>
+            </div>
+            <div class="menu_song">
+                <li class="songItem">
+                 
+                    <span>01</span>
+                    <img src="./img/1.jpg" alt="">
+                    <h5> Prema O Prema<br>
+                        <div class="subtitle"> Sid Sriram,Hemambika</div>
+                    </h5>
+                    <i class="bi playList bi-play-circle-fill" id="1"></i>
+                </li>    
+               
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="./img/2.jpg" alt="">
+                    <h5> Kannula Baasalu Theliyavule <br>
+                        <div class="subtitle"> Karthik</div>
+                    </h5>
+                    <i class="bi playList bi-play-circle-fill" id="2"></i>
+                </li> 
+                <li class="songItem">
+                   
+                   <span>03</span>
+                   <img src="./img/3.jpg" alt="">
+                   <h5> Vonivesina Deepavali<br>
+                       <div class="subtitle"> Raghu Kunche</div>
+                   </h5>
+                   <i class="bi playList bi-play-circle-fill" id="3"></i>
+               </li>
+               <li class="songItem">
+                    
+                    <span>04</span>
+                    <img src="./img/4.jpg" alt="">
+                    <h5> Evvaro Evvaro<br>
+                        <div class="subtitle"> Karthik, Priya Hemesh</div>
+                    </h5>
+                    <i class="bi playList bi-play-circle-fill" id="4"></i>
+                </li>
+                <li class="songItem">
+                  
+                   <span>05</span>
+                   <img src="./img/5.jpg" alt="">
+                   <h5>  Ninnele<br>
+                       <div class="subtitle"> Anurag Kulkarni, Shreya Goshal </div>
+                   </h5>
+                   <i class="bi playList bi-play-circle-fill" id="5"></i>
+               </li>
+               <li class="songItem">
+                    
+                    <span>06</span>
+                    <img src="./img/6.jpg" alt="">
+                    <h5>Nee Chitram Choosi<br>
+                        <div class="subtitle"> Anurag Kulkarni</div>
+                    </h5>
+                    <i class="bi playList bi-play-circle-fill" id="6"></i>
+                </li>
+                <li class="songItem">
+                     
+                    <span>07</span>
+                    <img src="./img/7.jpg" alt="">
+                    <h5> Nee Paata Madhuram<br>
+                        <div class="subtitle"> Roop Kumar,Shreya Ghoshal </div>
+                    </h5>
+                    <i class="bi playList bi-play-circle-fill" id="7"></i>
+                </li>
+                <li class="songItem">
+                    
+                   <span>08</span>
+                   <img src="./img/8.jpg" alt="">
+                   <h5> Neneppudaina<br>
+                       <div class="subtitle"> Shankar Mahadevan,Shreya Ghoshal </div>
+                   </h5>
+                   <i class="bi playList bi-play-circle-fill" id="8"></i>
+               </li>
+            </div>
+        </div>
+        <div class="songs">
+            <nav>
+                <ul>
+                    <li>Discover <span></span></li>
+                    <li>My Library</li>
+                    <li>Podcasts</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder = "Search Music..">
+                </div>
+                <div class="user">
+                    <img src="./img" alt="">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>Rahul Sipligunj, Kaala Bhairava -RRR  </h1>
+                <P>Poleramma Jatharalo, Potharaju Ooginattu,<br>
+                    Polamgattu Dhummulona, Potla Gittha Dhookinattu,</P>
+                    <div class="buttons">
+                        <button>PLAY</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Top Hit Songs</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left-short" id="pop_song_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_song_right"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+        
+                      <div class="img_play">
+                        <i class="bi playList bi-play-circle-fill" id="9"></i>
+                        <img src="./img/9.jpg" alt="">
+                      </div>
+                    
+                       <h5>Mastaaru Mastaaru<br>
+                           <div class="subtitle"> Shweta Mohan</div>
+                       </h5>
+                    
+                   </li>
+                    <li class="songItem">
+    
+                      <div class="img_play">
+                        <i class="bi playList bi-play-circle-fill" id="10"></i>
+                        <img src="./img/10.jpg" alt="">
+                      </div>
+                    
+                       <h5> Koppamga Kopamga<br>
+                           <div class="subtitle"> Armaan Malik, S S Thaman</div>
+                       </h5>
+                    
+                   </li>
+                    <li class="songItem">
+
+                      <div class="img_play">
+                        <i class="bi playList bi-play-circle-fill" id="11"></i>
+                        <img src="./img/11.jpg" alt="">
+                      </div>
+                    
+                       <h5> Kalaavathi<br>
+                           <div class="subtitle">Sid Sriram</div>
+                       </h5>
+                    
+                   </li>
+                    <li class="songItem">
+                        
+                      <div class="img_play">
+                        <i class="bi playList bi-play-circle-fill" id="12"></i>
+                        <img src="./img/12.jpg" alt="">
+                      </div>
+                    
+                       <h5> Oh Sita Hey Rama<br>
+                           <div class="subtitle"> SPB Charan,Ramya Behara</div>
+                       </h5>
+                    
+                   </li>
+                    <li class="songItem">
+                        
+                      <div class="img_play">
+                        <i class="bi playList bi-play-circle-fill" id="13"></i>
+                        <img src="./img/13.jpg" alt="">
+                      </div>
+                    
+                       <h5> Dheemthanana<br>
+                           <div class="subtitle"> Achu, Sid Sriram </div>
+                       </h5>
+                    
+                   </li>
+                    <li class="songItem">
+                        
+                      <div class="img_play">
+                        <i class="bi playList bi-play-circle-fill" id="14"></i>
+                        <img src="./img/14.jpg" alt="">
+                      </div>
+                    
+                       <h5> Jinthaak Chithaka<br>
+                           <div class="subtitle"> Bheems Ceciroleo,Mangli</div>
+                       </h5>
+                    
+                   </li>
+                    <li class="songItem">
+                      
+                      <div class="img_play">
+                        <i class="bi playList bi-play-circle-fill" id="15"></i>
+                        <img src="./img/15.jpg" alt="">
+                      </div>
+                    
+                       <h5> Manasantha<br>
+                           <div class="subtitle"> K.K.</div>
+                       </h5>
+                    
+                   </li>
+                    <li class="songItem">
+                    
+                      <div class="img_play">
+                        <i class="bi playList bi-play-circle-fill" id="16"></i>
+                        <img src="./img/16.jpg" alt="">
+                      </div>
+                    
+                       <h5> O Range<br>
+                           <div class="subtitle"> Benny Dayal</div>
+                       </h5>
+                    
+                   </li>
+                   <li class="songItem">
+                   
+                  <div class="img_play">
+                    <i class="bi playList bi-play-circle-fill" id="17"></i>
+                    <img src="./img/17.jpg" alt="">
+                  </div>
+                
+                   <h5> Ranjithame<br>
+                       <div class="subtitle"> Anurag Kulkarni,M M Manasi</div>
+                   </h5>
+                
+                    </li>
+                    <li class="songItem">
+                       
+                      <div class="img_play">
+                        <i class="bi playList bi-play-circle-fill" id="18"></i>
+                        <img src="./img/18.jpg" alt="">
+                      </div>
+                    
+                       <h5> Bangaara<br>
+                           <div class="subtitle"> Ramya K</div>
+                       </h5>
+                    
+                   </li>
+                    <li class="songItem">
+                        
+                      <div class="img_play">
+                        <i class="bi playList bi-play-circle-fill" id="19"></i>
+                        <img src="./img/19.jpg" alt="">
+                      </div>
+                    
+                       <h5> Ek Do Teen Chaar<br>
+                           <div class="subtitle"> Raghu Kunche, Andrea Jeremiah</div>
+                       </h5>
+                    
+                   </li>
+                </li>
+                <li class="songItem">
+    
+                  <div class="img_play">
+                    <i class="bi playList bi-play-circle-fill" id="20"></i>
+                    <img src="./img/20.jpg" alt="">
+                  </div>
+                
+                   <h5> Arere Vaanaa<br>
+                       <div class="subtitle"> Rahul Nambiar,Saindhavi</div>
+                   </h5>
+                
+               </li>
+                </div>
+            </div>
+            <div class="popular_artist">
+                <div class="h4">
+                    <h4>Famous Artists</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left-short" id="pop_art_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_art_right"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <li>
+                        <img src="./artists/1.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./artists/2.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./artists/3.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./artists/4.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./artists/5.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./artists/6.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./artists/7.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./artists/8.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./artists/1.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./artists/2.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./artists/3.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./artists/4.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./artists/5.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./artists/6.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./artists/7.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./artists/8.jpg" alt="">
+                    </li>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+
+        <div class="songPlay">
+            <div class="wave" id="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div> 
+            <img src="img/17.jpg" alt="" id="poster_songPlay">
+            <h5 id="title">
+                Ranjithame
+                <div class="subtitle">Anurag Kulkarni,M M Manasi</div>
+            </h5>
+            <div class="icon">
+                <i class="bi shuffle bi-music-note-beamed">next</i>
+                <i class="bi bi-skip-start" id ="back"></i>
+                <i class="bi bi-play-fill" id="masterPlay"></i>
+                <i class="bi bi-skip-end" id="next"></i>
+                <i class="bi bi-download" id="downloadM"></i>
+            </div>
+            <span id="currentStart">0.00</span>
+            <div class="bar">
+                <input type="range"  id="seek" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0.30</span>
+            <div class="vol">
+                <i class="bi bi-volume-up-fill" id="vol_icon"></i>
+                <input type="range"  id="vol" min="0" max="100">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot">
+               
+            </div>
+        </div>
+    </header>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
